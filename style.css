@@ -1,0 +1,43 @@
+body{
+    background: #00a651;
+}    
+.card{
+    /* display: inline-block; */
+    background-color: white;
+    width: 250px;
+    height: 230px;
+    border-radius: 15px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid black;
+    position: relative;
+    text-align: center;
+    padding-top: 150px;
+}
+.topSuite{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 80px;
+}
+.bottomSuite{
+    position: absolute;
+    bottom : 20px;
+    right: 20px;
+    font-size: 80px;
+    transform: rotate(180deg);
+}
+.number{
+    font-size: 80px;
+}
+.elementColorRed{
+    color: red;
+}
+.elementColorBlack{
+    color: black;
+}
+button{
+    text-align: center;
+    margin-left: 48%;
+    margin-top: 15px;
+}
